@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <header><h1>Weather App</h1></header>
+    <main >
+        <div> <h2><span class="city"></span></span></h2></div>
+        <div class="input">
+            <input  name="location" type = "text" class="inputValue" placeholder="Enter a city">
+            <input type="submit" value="submit" class="button">
+        </div>
+        <!-- Contains all elements related to the weather -->
+        <div id="weatherContainer">
+            <div class="day">
+                <div class="c-day">
+                    <div class="box"><h2>Today: </h2></div>
+                    <div class="box"><h5>Weather: </h5> <span class="day1temp"></span><span class="day1temp_max"></span></div>
+                    <div class="box"><h5>Condition: </h5> <span class="day1desc"></span></div>
+                    <div class="box"><h5>Humidity: </h5> <span class="day1humidity"></span></div>
+                </div>
+
+            </div>
+
+            <div class="day">
+                <div class="c-day">
+                    <div class="box"><h2>Day 2: </h2></div>
+                    <div class="box"><h5>Weather: </h5> <span class="day2temp"></span><span class="day1temp_max"></span></div>
+                    <div class="box"><h5>Condition: </h5> <span class="day2desc"></span></div>
+                    <div class="box"><h5>Humidity: </h5> <span class="day2humidity"></span></div>
+                </div>
+               
+            </div>
+
+             <div class="day">
+                <div class="c-day">
+                    <div class="box"><h2>Day 3: </h2></div>
+                    <div class="box"><h5>Weather: </h5> <span class="day3temp"></span><span class="day1temp_max"></span></div>
+                    <div class="box"><h5>Condition: </h5> <span class="day3desc"></span></div>
+                    <div class="box"><h5>Humidity: </h5> <span class="day3humidity"></span></div>
+                </div>
+
+             </div>
+
+
+             <div class="day">
+                <div class="c-day">
+                    <div class="box"><h2>Day 4: </h2></div>
+                    <div class="box"><h5>Weather: </h5> <span class="day4temp"></span><span class="day1temp_max"></span></div>
+                    <div class="box"><h5>Condition: </h5> <span class="day4desc"></span></div>
+                    <div class="box"><h5>Humidity: </h5> <span class="day4humidity"></span></div>
+                </div>
+
+             </div>
+
+             <div class="day">
+                <div class="c-day">
+                    <div class="box"><h2>Day 5: </h2></div>
+                    <div class="box"><h5>Weather: </h5> <span class="day5temp"></span><span class="day1temp_max"></span></div>
+                    <div class="box"><h5>Condition: </h5> <span class="day5desc"></span></div>
+                    <div class="box"><h5>Humidity: </h5> <span class="day5humidity"></span></div>
+                </div>
+                
+             </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <!-- Goes to weather.com -->
+        <p>Find more @<a href="https://weather.com/" target="_blank" rel="noopener noreferrer">Weather.com </a></p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
